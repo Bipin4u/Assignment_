@@ -1,3 +1,4 @@
+#Scrap any E-Commerce Website product title, price and reviews 
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 import ssl
