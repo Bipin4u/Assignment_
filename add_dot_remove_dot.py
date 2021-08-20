@@ -10,5 +10,5 @@ def add_dot(word):
 def remove_dot(word):
     return word.replace(".","")
 
-print(add_dot("bipin"))
-print(remove_dot("hello"))
+print(add_dot("hello"))
+print(remove_dot("h.e.l.l.o"))
