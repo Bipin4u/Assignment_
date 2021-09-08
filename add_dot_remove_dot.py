@@ -5,7 +5,7 @@ If both functions are correct, calling remove_dots(add_dots(string)) should retu
 
 import re
 def add_dot(word):
-    return word[0]+((word.join(re.findall("\w(\w*)\w$",word))).replace("","."))+word[-1]
+    return word[0]+((word.join(re.findall("\w(\w*)\w$",word))).replace("","."))+word[-1]#there area many meathods , this is using re
 
 def remove_dot(word):
     return word.replace(".","")
